@@ -8,19 +8,19 @@ let handler = async function (m, { text, usedPrefix }) {
   if (!name) throw 'Los nombres no pueden estar vacíos (Alphanumeric)'
   if (!age) throw 'La edad no puede estar vacía (Número)'
   age = parseInt(age)
-  if (age > 120) throw 'edad demasiado vieja 😂'
-  if (age < 5) throw 'Los bebés pueden escribir según el poder galáctico'
+  if (age > 120) throw '*𝙴𝚁𝙴𝚂 𝙳𝙴𝙼𝙰𝚂𝙸𝙰𝙳𝙾 𝚅𝙸𝙴𝙹𝙾/𝙰*'
+  if (age < 5) throw '*𝙻𝙾𝚂 𝙱𝙴𝙱𝙴𝚂 𝙿𝚄𝙴𝙳𝙴𝙽 𝙴𝚂𝙲𝚁𝙸𝙱𝙸𝚁 𝚂𝙴𝙶𝚄𝙽 𝙴𝙻 𝙿𝙾𝙳𝙴𝚁 𝙶𝙰𝙻𝙰𝙲𝚃𝙸𝙲𝙾*'
   user.name = name.trim()
   user.age = age
   user.regTime = + new Date
   user.registered = true
   let sn = createHash('md5').update(m.sender).digest('hex')
   m.reply(`
-Regístro 🌌 galactico 🌌 con éxito!
+𝐄𝐗𝐈𝐓𝐎 𝐔𝐒𝐓𝐄𝐃 𝐘𝐀 𝐄𝐒𝐓𝐀 𝐑𝐄𝐆𝐈𝐒𝐓𝐑𝐀𝐃𝐎 𝐄𝐍 𝐄𝐋 𝐁𝐎𝐓
 
-╭─「🌌 Info 🌌」
-│ Nama: ${name}
-│ Umur: ${age} año 
+╭─「🌌 𝐈𝐍𝐅𝐎 🌌」
+│ *𝙽𝙾𝙼𝙱𝚁𝙴*: ${name}
+│ *𝙴𝙳𝙰𝙳*: ${age} año 
 ╰────
 Serial Number: 
 ${sn}
