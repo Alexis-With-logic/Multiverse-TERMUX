@@ -1,14 +1,21 @@
 // ✩｡:*•.─────  NUMERO OWNER  ─────.•*:｡✩ 
-global.owner = ['51993042301', '16477229464', '593993684821', '593968585383', '50495086382', '50497501147', '5218451003894', '5215573031859', '50498965677', '528451003894', '525573031859'] //Agrega primero el numero que será Bot, luego los numeros a ser Owner
-global.mods = [] //Moderadores
-global.prems = [] //Premium, sin Limites en usar el Bot
+global.ownerglobal.owner = [ 
+   ['524531106422', '💌  ༒𝐌⃟𝐔𝐓𝐈𝐕𝐄𝐑𝐒𝐄🜲𝐁𝐎𝐓༒ - Creador 💌', true], 
+   ['5493813403468', '💌  ༒𝐌⃟𝐔𝐓𝐈𝐕𝐄𝐑𝐒𝐄🜲𝐁𝐎𝐓༒ - Collaborator 1 💌', true], 
+   ['595983186566', '💌  ༒𝐌⃟𝐔𝐓𝐈𝐕𝐄𝐑𝐒𝐄🜲𝐁𝐎𝐓༒ - Collaborator 2 💌', true], 
+   ['51975216165', '💌  ༒𝐌⃟𝐔𝐓𝐈𝐕𝐄𝐑𝐒𝐄🜲𝐁𝐎𝐓༒ -  Col𝚊𝚋𝚘𝚛𝚊𝚍𝚘𝚛  3 💌', true], 
+  
+ ]  
+ global.suittag = ['']  
+ global.mods = ['524531403370']  
+ global.prems = [] 
 
 // ✩｡:*•.─────  INFORMACIION DEL BOT - GENERAL  ─────.•*:｡✩ 
 global.packname = '𝑴𝒖𝒍𝒕𝒊𝒗𝒆𝒓𝒔𝒆𝑩𝒐𝒕-𝑴𝑫' //Sticker
-global.author = '@gata_dios'
+global.author = '@alexis_with-logic'
 
 global.nameowner = '✨ 𝑴𝒖𝒍𝒕𝒊𝒗𝒆𝒓𝒔𝒆𝑩𝒐𝒕-𝑴𝑫 ✨' //Nombre del Bot
-global.numberowner = '51993042301'
+global.numberowner = 'sin bot'
 
 global.instagram = 'https://www.instagram.com/gata_dios' //Enlaces
 global.youtube = 'https://youtube.com/channel/UCpNU4eY7eiI0ve05CssjdbA'
@@ -46,22 +53,22 @@ global.vs = '1.0.7' //version
 global.rg = '➩ 𝗥𝗘𝗦𝗨𝗟𝗧𝗔𝗗𝗢 ☑⚟\n\n'
 global.resultado = rg
 
-global.ag = '┗❴ 𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔 ⚠ ❵┛\n\n'
+global.ag = '🌀𝗔𝗗𝗩𝗘𝗥𝗧𝗘𝗡𝗖𝗜𝗔🌀 ⚠\n\n'
 global.advertencia = ag
 
-global.iig = '┗❴ 👨‍💻𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡 ❵┛\n\n'
+global.iig = '🔰𝗜𝗡𝗙𝗢𝗥𝗠𝗔𝗖𝗜𝗢𝗡🔰\n\n'
 global.informacion = iig
 
-global.fg = '┗❴ ❎ 𝗘𝗥𝗥𝗢𝗥 ❎ ❵┛\n\n'
+global.fg = '❎ 𝗘𝗥𝗥𝗢𝗥 ❎\n\n'
 global.fallo = fg
 
-global.mg = '┗❴ ‼𝗟𝗢 𝗨𝗦𝗢 𝗠𝗔𝗟‼ ❵┛\n\n'
+global.mg = '‼𝗟𝗢 𝗨𝗦𝗢 𝗠𝗔𝗟‼\n\n'
 global.mal = mg
 
-global.eeg = '┗❴ 📩 𝗥𝗘𝗣𝗢𝗥𝗧𝗘 📩 ❵┛\n\n'
+global.eeg = '📩 𝗥𝗘𝗣𝗢𝗥𝗧𝗘 📩\n\n'
 global.envio = eeg
 
-global.eg = '┗❴ ✔ 𝗘𝗫𝗜𝗧𝗢 😄 ❵┛\n\n'
+global.eg = '✔ 𝗘𝗫𝗜𝗧𝗢 🍀\n\n'
 global.exito = eg
 
 // ✩｡:*•.─────  APIKEY  ─────.•*:｡✩ 
